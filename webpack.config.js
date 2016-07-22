@@ -19,7 +19,10 @@ module.exports = {
 		    loader: 'babel',
 		    query: {
 		        presets:['es2015','stage-0','react']
-		    }
+			}
+		}, {
+		    test: /\.less$/,
+		    loader: 'style-loader!css-loader!autoprefixer-loader!less-loader'
 	    }]
 	}
 };
