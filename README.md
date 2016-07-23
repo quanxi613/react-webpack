@@ -1,11 +1,13 @@
 # react-webpack
 
-####搭建步骤
+####使用
 
-安装webpack
+npm安装所需模块
 
-`npm install webpack --save-dev`
+`npm install`
 
-设置webpack.config.js
+运行
+
+`npm run dev`
 
 
